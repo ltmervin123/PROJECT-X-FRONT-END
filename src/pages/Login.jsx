@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate
-import styles from '../css/LoginPage.module.css'; // Import CSS module
-import googleicon from '../img/icon-google.png';
+import styles from '../style/LoginPage.module.css'; // Import CSS module
+import googleicon from '../assets/icon-google.png';
 function Login() {
   const navigate = useNavigate(); // Use useNavigate instead of useHistory
 

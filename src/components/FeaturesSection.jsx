@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../css/LandingPage.module.css';
-import FeatureImg from '../img/section-img.png';
+import styles from '../style/LandingPage.module.css';
+import FeatureImg from '../assets/section-img.png';
 
 function FeatureCard({ iconSrc, title }) {
   return (

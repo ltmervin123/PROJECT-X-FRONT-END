@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
-import '../css/Sidebar_Home.css'; // Update the path as needed
-import img1 from '../img/1.png';
-import img2 from '../img/2.png';
+import '../style/Sidebar_Home.css'; // Update the path as needed
+import img1 from '../assets/1.png';
+import img2 from '../assets/2.png';
 
 const Home = () => {
     const [isSidebarOpen, setSidebarOpen] = useState(false);

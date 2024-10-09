@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom'; // Import Link from react-router-dom
-import styles from '../css/LandingPage.module.css';
+import styles from '../style/LandingPage.module.css';
 
 function Navbar() {
   return (

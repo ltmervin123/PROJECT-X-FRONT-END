@@ -1,6 +1,6 @@
 import React from 'react';
-import styles from '../css/LandingPage.module.css';
-import HeroImg from '../img/hero-img.png';
+import styles from '../style/LandingPage.module.css';
+import HeroImg from '../assets/hero-img.png';
 
 function HeroSection() {
   return (

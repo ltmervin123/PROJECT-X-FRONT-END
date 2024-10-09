@@ -1,9 +1,9 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import LandingPage from './components/LandingPage'; // Main landing page with Navbar
-import Login from './components/Login'; // Login component
-import Register from './components/Register'; // Registration component
-import Home from './components/Home'; // Home component
+import LandingPage from './pages/LandingPage'; // Main landing page with Navbar
+import Login from './pages/Login'; // Login component
+import Register from './pages/Register'; // Registration component
+import Home from './pages/Home'; // Home component
 
 function App() {
     return (

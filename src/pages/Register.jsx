@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import styles from '../css/RegisterPage.module.css'; // Import CSS module
-import googleicon from '../img/icon-google.png';
+import styles from '../style/RegisterPage.module.css'; // Import CSS module
+import googleicon from '../assets/icon-google.png';
 function Register() {
   const navigate = useNavigate();
 
