@@ -1,0 +1,95 @@
+Create bago folder vin
+
+step 1
+npx create-react-app my-website
+
+step 2
+npm install react-router-dom
+step 3
+kopy tanan folder and file eh tast eh paste sa created app "my-website"
+
+step 4
+npm start
+
+**********************************************************************
+//New added folder 
+
+-pages
+-services
+-hooks
+-context
+
+// Rename folder
+js >> utils
+img >> assets
+css >> style
+
+//Folder name and its content and purpose
+* public
+Purpose: Contains static files like the index.html, images, and other resources that are not handled by React directly. The index.html file is the entry point for the React app.
+
+* src
+Purpose: This is where all the React application code lives. The src folder contains the main logic, components, and styles of the app.
+
+*assets
+Purpose: Contains static assets like images, fonts, or icons that are needed within the application.
+Files: Images, fonts, SVGs.
+
+* components
+Purpose: Houses reusable UI components that are used across various pages. These components are modular and can be easily imported wherever needed.
+Files: Each component can have its own folder containing a .js/.jsx file and corresponding CSS/SCSS file if needed.
+Example: Button.js, Navbar.js, Card.js
+
+* pages
+Purpose: Contains the components for different views or pages of the application. Each file typically corresponds to a route in the app.
+Files: Components that represent full pages or routes in the app.
+Example: Home.js, About.js, Profile.js
+
+* services
+Purpose: For any external API calls or interaction with backend services. This helps in separating business logic (API calls) from the UI logic.
+Files: Files that handle API requests, like authService.js, productService.js.
+
+* hooks
+Purpose: Custom React hooks that encapsulate common logic shared between multiple components.
+Files: Files that define reusable hooks.
+Example: useAuth.js, useFetch.js
+
+* context
+Purpose: Houses React Context logic, used for managing global state that multiple components need access to.
+Files: Files that define different contexts for global state management.
+Example: AuthContext.js, ThemeContext.js
+
+* styles
+Purpose: This is where global or shared styles are stored, usually CSS or SCSS files. You can also add design system or variables here.
+Files: Global styles or theme files.
+Example: global.css, theme.scss
+
+* utils
+Purpose: Contains helper functions or utilities used across different parts of the app. This folder is a good place for formatting functions, constants, etc.
+Files: Files containing utility functions.
+Example: formatDate.js, validators.js
+
+* .gitignore
+Purpose: Specifies files and directories that should be ignored by Git, like node_modules, .env, and other build or temporary files.
+
+* package.json
+Purpose: Contains metadata about the project, like dependencies, scripts, and configurations for build tools.
+
+* README.md
+Purpose: Provides an overview of the project, how to set it up, and any relevant instructions for developers.
+
+* .env
+The .env file contains sensitive information
+
+App.js
+Purpose: This is the main component that acts as the entry point to the app's component tree. It usually includes routes, layouts, or initial context providers.
+Content: Typically includes your React Router setup and global context providers.
+
+index.js
+Purpose: This is the entry point of the React app. It’s responsible for rendering the root component (App) and injecting it into the DOM.
+Content: Typically imports App.js, React libraries, and attaches the app to the DOM via ReactDOM.render.
+
+routes.js
+Purpose: Manages the routing of the application, including defining paths for each page.
+Content: A list of routes using react-router-dom to manage navigation between pages.
+
